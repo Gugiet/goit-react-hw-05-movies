@@ -70,7 +70,7 @@ const MoviesPage = () => {
         </form>
       </header>
       {movies.length > 0 &&
-        movies.map(({ id, title, poster_path }) => (
+        movies.map(({ id, title }) => (
           <ul>
             <li key={id}>
               <Link
